@@ -11,11 +11,14 @@
 <link rel="icon" href="favicon.ico">
 <title>Sarthak Utekar | Portfolio</title>
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
+
   <header>
-    <nav>
+    <nav class="container">
       <h1>Sarthak Utekar</h1>
       <ul>
         <li><a href="#projects">Projects</a></li>
@@ -25,22 +28,31 @@
   </header>
 
   <main>
+
     <section id="hero">
       <h2>Building the future, one line of code at a time.</h2>
       <p>Full-stack AI developer in training.</p>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="container">
       <h2>Projects</h2>
+
       <div class="project-grid">
-        <!-- Add your first project here -->
+        <article class="project-card">
+          <img src="screenshot.png" alt="Portfolio screenshot">
+          <h3>Portfolio v1</h3>
+          <p>Static portfolio built using HTML, CSS, and JavaScript.</p>
+          <a href="https://github.com/ByteEyed/portfolio-v1" target="_blank">View code</a>
+        </article>
       </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="container">
       <h2>Contact</h2>
       <p>Email: sarthak@example.com</p>
     </section>
+
   </main>
+
 </body>
 </html>
