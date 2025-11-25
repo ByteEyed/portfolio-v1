@@ -27,3 +27,67 @@ a {
   background: #f5f5f5;
   text-align: center;
 }
+/* Container keeps spacing consistent */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Header */
+header {
+  background: #111;
+  color: #fff;
+  padding: 0.5rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero */
+#hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: #f2f2f2;
+}
+
+/* Project Grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.project-card a {
+  color: #0070f3;
+  font-weight: bold;
+  text-decoration: none;
+}
